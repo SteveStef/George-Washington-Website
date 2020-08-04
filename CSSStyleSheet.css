@@ -1,0 +1,209 @@
+body{
+
+    font-weight: lighter;
+    font-family: Verdana, Arial, Geneva, "Arial Black";
+    color: black;
+    background-color:#bb9351;
+    font-size: 25px;
+
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 150%;
+
+}
+h2{
+    font-size: 120%;
+}
+h3{
+    color: black;
+    font-size: 100%;
+
+}
+h4{
+    position: absolute;
+    top: 650px;
+    right: 900px;
+    margin-left: 800px;
+}
+
+p.para2 {
+    color : black;
+    font-size:15px;
+    line-height: 30px;
+    background-color: #ffeeb7;
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 10px;
+
+}
+p.para3 {
+    color: black;
+    font-size:15px;
+    line-height: 30px;
+
+    background-color: #ffeeb7;
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: ridge;
+    margin-right:800px;
+    border-radius: 10px;
+}
+
+#para4 {
+    color: black;
+    font-size:15px;
+    line-height: 30px;
+
+    background-color: #ffeeb7;
+    padding: 20px;
+    border-color: black;
+    border-width: thick;
+    border-style: ridge;
+
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 800px;
+    padding-left: 40px;
+
+    position: absolute;
+    top: 700px;
+    right: 85px;
+    border-radius: 10px;
+}
+.imagec{
+    background-color: silver;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+
+}
+you put divs to sandwich some code you want to edit
+#divpart1 {
+    color: black;
+
+}
+#divpart2{
+    color: black;
+}
+.highlight{
+    background-color: yellow;
+}
+.CSSReference{
+    color: white;
+    font-size:25px;
+    line-height: 50px;
+    font-weight: lighter;
+    font-family: Verdana, Arial, Geneva, "Arial Black";
+
+}
+
+
+a:link{
+  float:right;
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: orange;
+}
+.CSSReference{
+  position: absolute;
+  left:20px;
+}
+
+
+.Definitions{
+  font-size: 70%;
+}
+
+
+
+.DivHeading{
+  position: absolute;
+  left: 1150px;
+  bottom: 660px;
+  text-decoration: underline;
+}
+.DivClass{
+  padding: 20px;
+  border-color: black;
+  border-width: thick;
+  border-style: ridge;
+  background-color: #ffeeb7;
+  float:right;
+  width:40%;
+  margin-right:25px;
+  color: black;
+}
+
+#SpanHeading{
+  position: absolute;
+  bottom: 660px;
+  text-decoration: underline;
+}
+.SpanClass{
+  padding: 20px;
+  border-color: black;
+  border-width: thick;
+  border-style: ridge;
+  background-color: #ffeeb7;
+  float:left;
+  margin-left:25px;
+  width:40%;
+  color: black;
+
+}
+
+
+.idHeading{
+  position: absolute;
+  bottom: 270px;
+  text-decoration: underline;
+}
+.idClass{
+  padding: 20px;
+  border-color: black;
+  border-width: thick;
+  border-style: ridge;
+  background-color: #ffeeb7;
+  position: absolute;
+  left:20px;
+  bottom: 10px;
+  color: black;
+  margin-left:25px;
+}
+
+#floatHeading{
+  position: absolute;
+  bottom: 340px;
+  left:1050px;
+  color: white;
+  font-size: 120%;
+  text-decoration: underline;
+}
+.floatClass{
+  padding: 20px;
+  border-color: black;
+  border-width: thick;
+  border-style: ridge;
+  background-color: #ffeeb7;
+  float:right;
+  margin-right:25px;
+  margin-top:50px;
+  width: 40%;
+  color: black;
+}
+
+.Page2Button{
+  position: absolute;
+  left:1750px;
+  top:1080px;
+}
