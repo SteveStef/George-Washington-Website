@@ -1,0 +1,254 @@
+#container {
+  width: 1000px;
+  margin:0px auto;
+}
+body {
+  background-color: #FFFFFF;
+  margin: 0px;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+#header {
+  background-color: darkgray;
+  margin: 10px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+/*#navbar {
+  background-color: darkgray;
+  margin: 10px;
+  height: 35px;
+  border-radius: 5px;
+}*/
+/*====================NAVBAR SECTION=======================*/
+#navbar ul {
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  background-color:darkgray;
+  font-size: 150%;
+  margin:10px;
+
+}
+#navbar li {
+  display: inline;
+}
+#navbar a {
+  text-decoration: none;
+  font-family: arial;
+  padding: 2px;
+  margin: 75px;
+  color: black;
+}
+#navbar a:hover{
+  color: black;
+  background-color: #E0E0E0;
+}
+
+/*============ HEADING SECTION ===========*/
+h1 {
+  font-size: 150%;
+  color: Black;
+}
+h2 {
+  font-size: 150%;
+  color: black;
+}
+h3 {
+  font-size: 250%;
+  color: black;
+  text-align: center;
+  font-family: "Century Gothic";
+  margin: 0px;
+
+  /*How to vertically align text*/
+  position: relative;
+  top: 25%;
+}
+/*=============SIDE BAR & MAIN INFO============*/
+.main {
+  background-color: #E0E0E0;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 110%;
+  margin-left:10px;
+  margin-right: 320px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sideright {
+  float:right;
+  background-color: #E0E0E0;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;;
+  padding:20px;
+  border-radius: 5px;
+  font-size: 105%;
+  width: 260px;
+}
+.main2 {
+  background-color: #E0E0E0;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 110%;
+  margin-left:10px;
+  margin-right: 320px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sideright2 {
+  float:right;
+  background-color: #E0E0E0;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;;
+  padding:20px;
+  border-radius: 5px;
+  font-size: 105%;
+  width: 260px;
+  clear:right;
+}
+.main3 {
+  background-color: #E0E0E0;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 110%;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Achivements {
+  float:right;
+  background-color: #E0E0E0;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;;
+  padding:20px;
+  border-radius: 5px;
+  font-size: 105%;
+  width: 260px;
+  clear:right;
+  height:300px;
+  line-height: 18px;
+
+}
+.sideright3 {
+  float:right;
+  background-color: #E0E0E0;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;;
+  padding:20px;
+  border-radius: 5px;
+  font-size: 105%;
+  width: 260px;
+  clear:right;
+  height: 150px;
+}
+#sources ul {
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 150%;
+  margin:10px;
+
+}
+#sources li {
+  display: block;
+  text-align:left;
+  line-height: 30px;
+  font-size: 60%
+}
+#sources a {
+  text-decoration: underline;
+  font-family: arial;
+  padding: 2px;
+  margin: 0px;
+  color: blue;
+}
+#sources a:hover{
+  color: darkblue;
+}
+/*=========================IMAGE==========================*/
+.sidebarimg {
+  float:right;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;;
+  border-radius: 5px;
+  width: 300px;
+  clear:right; /* Makes it so it go on the right of text*/
+  opacity: 1.0; /* effect of 1 is no effect*/
+  transition: opacity 0.5s ease-in-out;
+}
+.sidebarimg:hover{
+  opacity: 0.6;/* adds effect when hover*/
+}
+.sidebarimg2 {
+  float:right;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;;
+  border-radius: 5px;
+  width: 300px;
+  height: 430px;
+  clear:right; /* Makes it so it go on the right of text*/
+  opacity: 1.0; /* effect of 1 is no effect*/
+  transition: opacity 0.5s ease-in-out;
+}
+.sidebarimg2:hover{
+  opacity: 0.6;/* adds effect when hover*/
+}
+
+
+/*==============FOOTER SECTION=============*/
+#footer {
+  background-color:darkgray;
+  margin:10px;
+  height:60px;
+  clear:both;
+  border-radius: 5px;
+  text-align:center;
+  font-size: 90%;
+  padding: 15px;
+}
+#footer ul {
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  background-color:darkgray;
+  margin:5px;
+
+}
+#footer li {
+  display: inline;
+}
+#footer a {
+  text-decoration: none;
+  font-family: arial;
+  padding: 2px;
+  margin: 50px;
+  color: black;
+}
+#footer a:hover{
+  color: black;
+  background-color: #E0E0E0;
+}
+#footer img {
+  position:absolute;
+  top: 2630px;
+  right: 480px;
+}
