@@ -1,2 +1,2 @@
 # George Washington Biography
-This is a static website made with html and css
+This is a simple static website made with html and css
